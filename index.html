@@ -1,3 +1,121 @@
-<html>
-  <body>Hello World!</body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Trinational Study Programmes in/with Switzerland</title>
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --accent:#60a5fa; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:linear-gradient(180deg,#0b1220,#0f172a); color:var(--text); }
+    header { padding:48px 20px 20px; text-align:center; }
+    h1 { margin:0 0 8px; font-size: clamp(1.6rem, 2.2vw + 1rem, 2.6rem); }
+    p.lead { margin:0 auto; max-width:960px; color:var(--muted); line-height:1.6; }
+    .grid { display:grid; gap:16px; padding:24px; grid-template-columns: repeat(auto-fit, minmax(320px,1fr)); max-width:1200px; margin:0 auto 40px; }
+    .card { background: rgba(17,24,39,.7); border:1px solid rgba(255,255,255,.06); padding:20px; border-radius:16px; backdrop-filter: blur(6px); box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+    .badge { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; letter-spacing:.2px; color:#0b1220; font-weight:600; background:linear-gradient(90deg,#93c5fd,#60a5fa); }
+    .title { margin:12px 0 6px; font-size:1.1rem; font-weight:700; }
+    .meta { margin:0 0 8px; font-size:.92rem; color:var(--muted); }
+    .desc { margin:8px 0 10px; line-height:1.5; }
+    .list { margin:0; padding-left:18px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer { text-align:center; color:var(--muted); padding:12px 20px 40px; font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trinational Study Programmes (CH–DE–FR)</h1>
+    <p class="lead">
+      Curated list of degree programmes delivered across Switzerland, Germany, and France.
+      Each card shows the Swiss lead/partner, cross-border partners, and the official link.
+    </p>
+  </header>
+
+  <main class="grid">
+
+    <!-- BSc International Business Management (trinational) -->
+    <article class="card">
+      <span class="badge">Bachelor</span>
+      <div class="title">International Business Management (trinational)</div>
+      <p class="meta">Swiss partner: FHNW School of Business (Basel/Olten)</p>
+      <p class="desc">Multilingual business degree with integrated internships; studies rotate across CH–DE–FR.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> DHBW Lörrach (DE), Université de Haute-Alsace (FR)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.fhnw.ch/en/degree-programmes/business/ibm" target="_blank" rel="noopener">Official programme page →</a></p>
+    </article>
+
+    <!-- MSc Sustainable Business Development (trinational) -->
+    <article class="card">
+      <span class="badge">Master</span>
+      <div class="title">Sustainable Business Development (trinational)</div>
+      <p class="meta">Swiss lead: FHNW School of Business</p>
+      <p class="desc">Cross-border master focused on sustainability, innovation, and management; taught across CH–DE–FR.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> Hochschule Offenburg (DE), EM Strasbourg Business School (FR)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.fhnw.ch/en/degree-programmes/business/msc-tri" target="_blank" rel="noopener">Official programme page →</a></p>
+    </article>
+
+    <!-- BSc Mechatronics Trinational -->
+    <article class="card">
+      <span class="badge">Bachelor</span>
+      <div class="title">Mechatronics Trinational</div>
+      <p class="meta">Swiss partner: FHNW School of Engineering (Brugg-Windisch)</p>
+      <p class="desc">Technology & business-oriented mechatronics degree delivered in the Upper Rhine border region.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> (DE/FR partners via Upper Rhine network; see programme site)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.fhnw.ch/en/degree-programmes/engineering/mechatronics-trinational" target="_blank" rel="noopener">Official programme page →</a></p>
+    </article>
+
+    <!-- BSc Information Communication Systems (ICS) Trinational -->
+    <article class="card">
+      <span class="badge">Bachelor</span>
+      <div class="title">Information Communication Systems (Trinational)</div>
+      <p class="meta">Swiss partner: FHNW School of Engineering</p>
+      <p class="desc">ICT bachelor with one academic year at each university plus an industry internship.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> Furtwangen University (DE), Université de Haute-Alsace (FR)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.fhnw.ch/en/degree-programmes/engineering/information-communication-systems" target="_blank" rel="noopener">Official programme page →</a></p>
+    </article>
+
+    <!-- BSc Civil Engineering Tri-national -->
+    <article class="card">
+      <span class="badge">Bachelor</span>
+      <div class="title">Civil Engineering (Tri-national)</div>
+      <p class="meta">Swiss partner: FHNW, Muttenz</p>
+      <p class="desc">Tri-national civil engineering track beginning in France, continuing in Switzerland, finishing in Germany.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> Karlsruhe University of Applied Sciences (DE), IUT Robert Schuman (FR)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.h-ka.de/en/study/study-in-german/bachelor/civil-engineering-tri-national/profile" target="_blank" rel="noopener">Programme profile (HKA) →</a></p>
+    </article>
+
+    <!-- Trinational Biotechnology (Basel–Freiburg–Strasbourg) -->
+    <article class="card">
+      <span class="badge">Master</span>
+      <div class="title">Trinational Biotechnology Programme</div>
+      <p class="meta">Swiss partner: University of Basel (Biozentrum)</p>
+      <p class="desc">Joint programme coordinated by the Upper Rhine universities of Basel, Freiburg, and Strasbourg.</p>
+      <ul class="list">
+        <li><strong>Partners:</strong> University of Freiburg (DE), Université de Strasbourg (FR)</li>
+        <li><strong>Countries:</strong> Switzerland, Germany, France</li>
+      </ul>
+      <p><a href="https://www.biozentrum.unibas.ch/education/degree-programms/diploma-in-biotechnology" target="_blank" rel="noopener">Programme page (Basel) →</a></p>
+    </article>
+
+  </main>
+
+  <footer>
+    Last updated: 6 Sep 2025 · If you know another CH-DE-FR tri-national programme, add it to this list.
+  </footer>
+</body>
 </html>
